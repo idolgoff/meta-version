@@ -12,7 +12,9 @@ module.exports = {
 
         return ({
             git: { branch, sha, tag, lastTag, committer, commitMessage, committerDate },
-            build: {},
+            build: {
+                date: new Date(),
+            },
             package: filterObject(require(packageJson), (key, _) => {
                 return ['name', 'version', 'dependencies'].includes(key);
             }),
