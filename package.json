@@ -1,6 +1,6 @@
 {
   "name": "meta-version",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gets info about current git version/branch/sha etc and caller package info",
   "main": "index.js",
   "scripts": {
